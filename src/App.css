@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;    
+  margin-top: 20px;
+  border: 1px solid black;
+  padding-top: 10px;
+}
+
+.App > div {
+  margin-left: 50px;
+}
+
+.App-logo {
+  height: 3em;
+  pointer-events: none;
+}
+
+.btn-contact {
+   border: none;
+   border-radius: 20px;
+   width: 100px;
+   height: 30px;
+   background-color: rgb(10, 153, 153);
+   color: whitesmoke;
+}
